@@ -1,19 +1,58 @@
-/* 
+/* style the body */
+body{
+	background-image: url(../images/wood-pattern.png);
+	display: flex;
+}
+.bodyWrap{
+	padding: 0 250px ;
+}
+/* this is the header */
+header{
+	background: rgb(255, 109, 100);
+	padding: 0;
+}
+.mainHeader a {
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 40px;
+	text-decoration: none;
+	color: white;
+	margin: 0;
+}
+.mainHeader2 {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+	margin-top: 0;
+}
 
-Style Hints: 
-
-Body Font Size = 14px
-	 Font Family = "Times New Roman", serif
-	 Font Color = black
-	 Background: #F3EBE9
-
-H1 Font Size = 50px
-   Font Family = Arial, Helvetica, sans-serif
-   Text-transform: uppercase;
-   color: #FFFFFF;	(White)
-
-H2: Font Size = 18px
-	Text-Transform: uppercase;
-	Font-Family: cursive, Helvetica, sans-serif;
-
-*/
+.paraImage{
+	background: url(../images/orchids.jpg);
+	height: 500px;
+	background-repeat: no-repeat;
+}
+.page{
+	background: white;
+}
+.imgGal div{
+	background-repeat: no-repeat;
+	height: 140px;
+	width: 200px;
+	display: inline-flex;
+	border: solid gray;
+	padding: 10px;
+}
+#image1{
+	background-image: url(../images/sunflowers.jpg);
+}
+#image2{
+	background-image: url(../images/water.jpg);
+}
+#image3{
+	background-image: url(../images/purple.jpg);
+}
+#image4{
+	background-image: url(../images/ocean.jpg);
+}
